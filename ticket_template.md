@@ -15,11 +15,11 @@
 
 ### Usefulness in ontology construction:
 
-#### Is the class useful for error checking (via disjointness axioms)
+#### Is the class useful for error checking (via disjointness axioms)?
 
-#### Is this class useful for design patterns
+#### Is this class useful for design patterns?
 
-#### Is this class useful for curators  - e.g. used in templates or guiding template usage.
+#### Is this class useful for curators  - e.g. used in templates or guiding template usage?
 
 ### Sustainability -
 
