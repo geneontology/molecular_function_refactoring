@@ -21,7 +21,7 @@
 
 #### Is this class useful for curators  - e.g. used in templates or guiding template usage?
 
-### Sustainability -
+### Sustainability
 
 #### Does this class require multiple inheritance classification?
 
