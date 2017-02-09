@@ -1,0 +1,337 @@
+Prefix(:=<http://www.semanticweb.org/dosumis/ontologies/2017/1/untitled-ontology-857#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/dosumis/ontologies/2017/1/compound_function_test2.owl>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098501>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_133f0478_b8c2_44b0_9ba5_fe658600ae34>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_1d7c9fc6_9136_444b_a6a2_f1e9ec9ba368>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_32eb64c8_68f8_428e_94e0_5d46f683199b>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_346d43d1_3238_4873_9ea9_0c1ace351aef>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_3c0c09a5_22f3_4cdb_8292_c87e67ed398c>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_3d0c218f_afc9_46dd_90e8_ea6a059d04c7>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_5a3eda88_52b2_43bd_8c43_d3905dac8787>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_7569844e_84a7_4961_9636_4f1e183868dc>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_79374686_c773_4fa2_a9c3_1ff71c001536>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_99b1d1e0_51ec_41f6_8f96_b63ed849da36>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_a611b86c_3024_4254_99e2_270c78928604>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_ad16e564_c5c8_47dc_a6d8_f870f9fff598>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_b7bf2e1e_0afb_4c8f_9ce3_56c144df6935>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_bae6a0eb_da0a_4b19_a5a3_e32921f86f79>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_c7d6d53e_d2f8_4bb1_85a7_c0b94ae3aa91>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_d74a5f8f_4beb_4d88_9b6b_451f35a6065d>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_ee0e950e_a936_49bf_8e14_37179c593f71>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_fc5f5b38_dda1_458c_aa92_77917a1b7b32>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938>))
+Declaration(Class(<http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_062b08db_d6a8_4506_ad4c_577847852fe3>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_b604f381_9997_4b52_b630_f02d7b6d50ad>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_b8b78441_6e3c_42c6_8041_e12f2ff47460>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_c55442b2_2934_4d27_8461_44208a9d9039>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_062b08db_d6a8_4506_ad4c_577847852fe3> (has_part)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_062b08db_d6a8_4506_ad4c_577847852fe3> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_062b08db_d6a8_4506_ad4c_577847852fe3> "2017-02-03T14:28:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_062b08db_d6a8_4506_ad4c_577847852fe3> "has_part")
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/scratch_062b08db_d6a8_4506_ad4c_577847852fe3>)
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> (has_sensor)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> "2017-02-08T18:24:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> "has_sensor")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> <http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590>)
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590> (has_component)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590> "2017-02-03T14:28:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590> "has_component")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590> <http://purl.obolibrary.org/obo/scratch_062b08db_d6a8_4506_ad4c_577847852fe3>)
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> (has_ligand)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> "2017-02-03T14:29:04Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> "has_ligand")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> <http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> <http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7>)
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_b604f381_9997_4b52_b630_f02d7b6d50ad> (transports)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_b604f381_9997_4b52_b630_f02d7b6d50ad> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_b604f381_9997_4b52_b630_f02d7b6d50ad> "2017-02-03T14:30:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_b604f381_9997_4b52_b630_f02d7b6d50ad> "transports")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/scratch_b604f381_9997_4b52_b630_f02d7b6d50ad> <http://purl.obolibrary.org/obo/scratch_b8b78441_6e3c_42c6_8041_e12f2ff47460>)
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_b8b78441_6e3c_42c6_8041_e12f2ff47460> (has_participant)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_b8b78441_6e3c_42c6_8041_e12f2ff47460> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_b8b78441_6e3c_42c6_8041_e12f2ff47460> "2017-02-03T14:29:17Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_b8b78441_6e3c_42c6_8041_e12f2ff47460> "has_participant")
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_c55442b2_2934_4d27_8461_44208a9d9039> (bearer_of)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_c55442b2_2934_4d27_8461_44208a9d9039> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_c55442b2_2934_4d27_8461_44208a9d9039> "2017-02-03T14:37:07Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_c55442b2_2934_4d27_8461_44208a9d9039> "bearer_of")
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3> (has_input)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3> "2017-02-03T14:29:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3> "has_input")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3> <http://purl.obolibrary.org/obo/scratch_b8b78441_6e3c_42c6_8041_e12f2ff47460>)
+
+# Object Property: <http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> (has_effector)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> "2017-02-03T14:29:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> "has_effector")
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> <http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/GO_0098501> (molecular transducer activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GO_0098501> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GO_0098501> "2017-02-08T18:11:05Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0098501> "molecular transducer activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0098501> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)))
+
+# Class: <http://purl.obolibrary.org/obo/scratch_133f0478_b8c2_44b0_9ba5_fe658600ae34> (cation selective transporter activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_133f0478_b8c2_44b0_9ba5_fe658600ae34> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_133f0478_b8c2_44b0_9ba5_fe658600ae34> "2017-02-03T14:35:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_133f0478_b8c2_44b0_9ba5_fe658600ae34> "cation selective transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_133f0478_b8c2_44b0_9ba5_fe658600ae34> <http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_1d7c9fc6_9136_444b_a6a2_f1e9ec9ba368> (ionotropic receptor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_1d7c9fc6_9136_444b_a6a2_f1e9ec9ba368> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_1d7c9fc6_9136_444b_a6a2_f1e9ec9ba368> "2017-02-03T14:44:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_1d7c9fc6_9136_444b_a6a2_f1e9ec9ba368> "ionotropic receptor activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_1d7c9fc6_9136_444b_a6a2_f1e9ec9ba368> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> <http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> <http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363>)))
+
+# Class: <http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd> (chemical entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd> "2017-02-03T14:38:08Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd> "chemical entity")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd> <http://purl.obolibrary.org/obo/scratch_79374686_c773_4fa2_a9c3_1ff71c001536>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_32eb64c8_68f8_428e_94e0_5d46f683199b> (ionotropic glutamate receptor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_32eb64c8_68f8_428e_94e0_5d46f683199b> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_32eb64c8_68f8_428e_94e0_5d46f683199b> "2017-02-03T14:44:25Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_32eb64c8_68f8_428e_94e0_5d46f683199b> "2017-02-03T14:47:50Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_32eb64c8_68f8_428e_94e0_5d46f683199b> "ionotropic glutamate receptor activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_32eb64c8_68f8_428e_94e0_5d46f683199b> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> <http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> <http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363>)))
+
+# Class: <http://purl.obolibrary.org/obo/scratch_346d43d1_3238_4873_9ea9_0c1ace351aef> (photon)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_346d43d1_3238_4873_9ea9_0c1ace351aef> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_346d43d1_3238_4873_9ea9_0c1ace351aef> "2017-02-08T18:12:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_346d43d1_3238_4873_9ea9_0c1ace351aef> "photon")
+
+# Class: <http://purl.obolibrary.org/obo/scratch_3c0c09a5_22f3_4cdb_8292_c87e67ed398c> (catalytic activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_3c0c09a5_22f3_4cdb_8292_c87e67ed398c> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_3c0c09a5_22f3_4cdb_8292_c87e67ed398c> "2017-02-03T14:31:06Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_3c0c09a5_22f3_4cdb_8292_c87e67ed398c> "catalytic activity")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_3c0c09a5_22f3_4cdb_8292_c87e67ed398c> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_3d0c218f_afc9_46dd_90e8_ea6a059d04c7> (anion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_3d0c218f_afc9_46dd_90e8_ea6a059d04c7> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_3d0c218f_afc9_46dd_90e8_ea6a059d04c7> "2017-02-03T14:39:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_3d0c218f_afc9_46dd_90e8_ea6a059d04c7> "anion")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_3d0c218f_afc9_46dd_90e8_ea6a059d04c7> <http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f> (transporter activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f> "2017-02-03T14:34:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f> "transporter activity")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b> (ion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b> "2017-02-03T14:38:59Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b> "ion")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b> <http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_5a3eda88_52b2_43bd_8c43_d3905dac8787> (chloride ion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_5a3eda88_52b2_43bd_8c43_d3905dac8787> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_5a3eda88_52b2_43bd_8c43_d3905dac8787> "2017-02-03T14:39:41Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_5a3eda88_52b2_43bd_8c43_d3905dac8787> "chloride ion")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_5a3eda88_52b2_43bd_8c43_d3905dac8787> <http://purl.obolibrary.org/obo/scratch_3d0c218f_afc9_46dd_90e8_ea6a059d04c7>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7> (receptor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7> "2017-02-03T14:31:39Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7> "receptor activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> <http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)))
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_64ba7f72_ba1b_47e2_886c_d35e861c40f7> <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> (molecular_function)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> "2017-02-03T14:31:26Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> "molecular_function")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> <http://purl.obolibrary.org/obo/scratch_ad16e564_c5c8_47dc_a6d8_f870f9fff598>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_7569844e_84a7_4961_9636_4f1e183868dc> (glutamate receptor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_7569844e_84a7_4961_9636_4f1e183868dc> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_7569844e_84a7_4961_9636_4f1e183868dc> "2017-02-03T14:41:13Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_7569844e_84a7_4961_9636_4f1e183868dc> "glutamate receptor activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_7569844e_84a7_4961_9636_4f1e183868dc> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> <http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)))
+
+# Class: <http://purl.obolibrary.org/obo/scratch_79374686_c773_4fa2_a9c3_1ff71c001536> (continuant)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_79374686_c773_4fa2_a9c3_1ff71c001536> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_79374686_c773_4fa2_a9c3_1ff71c001536> "2017-02-03T14:38:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_79374686_c773_4fa2_a9c3_1ff71c001536> "continuant")
+
+# Class: <http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc> (binding)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc> "2017-02-03T14:31:11Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc> "binding")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_99b1d1e0_51ec_41f6_8f96_b63ed849da36> (sodium ion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_99b1d1e0_51ec_41f6_8f96_b63ed849da36> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_99b1d1e0_51ec_41f6_8f96_b63ed849da36> "2017-02-03T14:39:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_99b1d1e0_51ec_41f6_8f96_b63ed849da36> "sodium ion")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_99b1d1e0_51ec_41f6_8f96_b63ed849da36> <http://purl.obolibrary.org/obo/scratch_b7bf2e1e_0afb_4c8f_9ce3_56c144df6935>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_a611b86c_3024_4254_99e2_270c78928604> (quality)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_a611b86c_3024_4254_99e2_270c78928604> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_a611b86c_3024_4254_99e2_270c78928604> "2017-02-03T14:36:20Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_a611b86c_3024_4254_99e2_270c78928604> "quality")
+
+# Class: <http://purl.obolibrary.org/obo/scratch_ad16e564_c5c8_47dc_a6d8_f870f9fff598> (process)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_ad16e564_c5c8_47dc_a6d8_f870f9fff598> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_ad16e564_c5c8_47dc_a6d8_f870f9fff598> "2017-02-03T14:36:06Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_ad16e564_c5c8_47dc_a6d8_f870f9fff598> "process")
+
+# Class: <http://purl.obolibrary.org/obo/scratch_b7bf2e1e_0afb_4c8f_9ce3_56c144df6935> (cation)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_b7bf2e1e_0afb_4c8f_9ce3_56c144df6935> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_b7bf2e1e_0afb_4c8f_9ce3_56c144df6935> "2017-02-03T14:39:06Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_b7bf2e1e_0afb_4c8f_9ce3_56c144df6935> "cation")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_b7bf2e1e_0afb_4c8f_9ce3_56c144df6935> <http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9> (glutamate)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9> "2017-02-03T14:40:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9> "glutamate")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9> <http://purl.obolibrary.org/obo/scratch_d74a5f8f_4beb_4d88_9b6b_451f35a6065d>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_bae6a0eb_da0a_4b19_a5a3_e32921f86f79> (photoreceptor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_bae6a0eb_da0a_4b19_a5a3_e32921f86f79> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_bae6a0eb_da0a_4b19_a5a3_e32921f86f79> "2017-02-08T18:21:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_bae6a0eb_da0a_4b19_a5a3_e32921f86f79> "photoreceptor activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_bae6a0eb_da0a_4b19_a5a3_e32921f86f79> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_13ef77f6_96fd_4dc3_9f10_9cc9b272bba2> <http://purl.obolibrary.org/obo/scratch_ee0e950e_a936_49bf_8e14_37179c593f71>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_f41805ec_c3a7_4c9d_9362_7fc81f808a2e> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)))
+
+# Class: <http://purl.obolibrary.org/obo/scratch_c7d6d53e_d2f8_4bb1_85a7_c0b94ae3aa91> (chloride specificity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_c7d6d53e_d2f8_4bb1_85a7_c0b94ae3aa91> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_c7d6d53e_d2f8_4bb1_85a7_c0b94ae3aa91> "2017-02-03T14:36:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_c7d6d53e_d2f8_4bb1_85a7_c0b94ae3aa91> "chloride specificity")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_c7d6d53e_d2f8_4bb1_85a7_c0b94ae3aa91> <http://purl.obolibrary.org/obo/scratch_a611b86c_3024_4254_99e2_270c78928604>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb> (glutamate binding)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb> "2017-02-03T14:49:43Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb> "glutamate binding")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_cefe1166_0383_4921_a66c_3fd866c3c2f3> <http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9>)))
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb> <http://purl.obolibrary.org/obo/scratch_964c27d8_1431_4c14_8a78_f670c3bee5dc>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_d74a5f8f_4beb_4d88_9b6b_451f35a6065d> (amino acid)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_d74a5f8f_4beb_4d88_9b6b_451f35a6065d> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_d74a5f8f_4beb_4d88_9b6b_451f35a6065d> "2017-02-03T14:40:38Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_d74a5f8f_4beb_4d88_9b6b_451f35a6065d> "amino acid")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_d74a5f8f_4beb_4d88_9b6b_451f35a6065d> <http://purl.obolibrary.org/obo/scratch_2f81ac80_befb_4ea1_a350_1d1c3f8e89fd>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_ee0e950e_a936_49bf_8e14_37179c593f71> (photon absorbing)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_ee0e950e_a936_49bf_8e14_37179c593f71> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_ee0e950e_a936_49bf_8e14_37179c593f71> "2017-02-08T18:20:34Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_ee0e950e_a936_49bf_8e14_37179c593f71> "photon absorbing")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_ee0e950e_a936_49bf_8e14_37179c593f71> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363> (ion transporter activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363> "2017-02-03T14:45:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363> "ion transporter activity")
+EquivalentClasses(<http://purl.obolibrary.org/obo/scratch_f3e01907_e0cf_4c71_86a9_bc19d5ea4363> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_4bf3e4c9_1e79_47cb_aaf7_843026ed550f> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_b604f381_9997_4b52_b630_f02d7b6d50ad> <http://purl.obolibrary.org/obo/scratch_570482fd_9b4b_4880_a0d8_c690bffbc16b>)))
+
+# Class: <http://purl.obolibrary.org/obo/scratch_fc5f5b38_dda1_458c_aa92_77917a1b7b32> (transcription factor activity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_fc5f5b38_dda1_458c_aa92_77917a1b7b32> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_fc5f5b38_dda1_458c_aa92_77917a1b7b32> "2017-02-03T14:31:47Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_fc5f5b38_dda1_458c_aa92_77917a1b7b32> "transcription factor activity")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_fc5f5b38_dda1_458c_aa92_77917a1b7b32> <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938>)
+
+# Class: <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938> (compound function)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938> "2017-02-03T14:27:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938> "A molecular function consisting of multiple, casually linked atomic functions.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938> "compound function")
+EquivalentClasses(Annotation(rdfs:comment "This is somewhat questionable.  If has_part were reflexive, this would make all functions compound.  Otherwise it is only safe if by the reasonable convention that we never use has_component where there is only one component.") <http://purl.obolibrary.org/obo/scratch_fcf0999a_58fc_45c8_8a4c_0789887ab938> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590> <http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6>)))
+
+# Class: <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46> (atomic function)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46> "2017-02-03T14:27:32Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46> "atomic function")
+SubClassOf(<http://purl.obolibrary.org/obo/scratch_fecd9ff7_1f95_47c6_8290_60bba8d42a46> <http://purl.obolibrary.org/obo/scratch_72bc4935_d97e_43be_8f17_257bbdd6ccc6>)
+
+
+SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_551dda69_6766_40aa_b172_013a0222b1e7> <http://purl.obolibrary.org/obo/scratch_b9837753_680d_45dd_a63b_8c7387d7bcd9>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/scratch_4252e17e_2776_4d7e_9469_41ab55e21590> <http://purl.obolibrary.org/obo/scratch_d4766a70_85db_4578_b2a3_58d32ac02ffb>))
+)
