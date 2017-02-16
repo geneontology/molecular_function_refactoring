@@ -28,7 +28,7 @@ Given that manually maintained multiple inheritance heirarchies are typically in
 
 ## Starting point:
 
-Starting point: Paul Thomas' manual [refactoring proposal in WebProtege]((https://webprotege.stanford.edu/#Edit:projectId=ea132f81-760a-43f2-b5a9-fbe763bb7eed))
+Starting point: Paul Thomas' manual [refactoring proposal in WebProtege](https://webprotege.stanford.edu/#Edit:projectId=ea132f81-760a-43f2-b5a9-fbe763bb7eed)
 
 ### Top down approach:
 
@@ -49,9 +49,9 @@ Work up from existing classes under Paul's new classes to try to find common des
 
 ### Outputs
 
-* Edits are taking place on [a branched version of the GO](). Diffs can be inspected here: 
+* Edits are taking place on [a branched version of the GO](http://viewvc.geneontology.org/viewvc/GO-SVN/trunk/experimental/David/MF_refactoring/). Diffs can be inspected here: 
 
-* Design patterns and templates are specified in the [GO design pattern repository](). Files here are automatically checked for validity using a [Tavis job].
+* Design patterns and templates are specified in the [GO design pattern repository](https://github.com/geneontology/design_patterns). Files here are automatically checked for validity using a [Travis job](https://travis-ci.org/geneontology/design_patterns).
 
 * Documentation of standard practises for LEGO annotation that maximise inference will be developed on this repostitory.
 
