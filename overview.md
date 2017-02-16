@@ -6,21 +6,22 @@ Molecular function is very poorly formalised.  Only 16% of terms have logical de
 
 Multiple inheritance classification summary:
 
-10778 terms
-7672 have one parent
-2197 have two parents
-626 have 3 parents
-193 have 4 parents
-89 have > 4 parents
+| No. Terms | No. parents | 
+|-----------|-------------|
+| 7672 | 1 |
+| 2197 | 2 |
+| 626  | 3 |
+| 193 | 4 |
+| 89  | > 4 |
 
-Given that manually maintained multiple inheritance heirarchies are typically incomplete, the true level of multiple inheritance is almost certainly higher.  The propsed new classifications will increase this further.
+Given that manually maintained multiple inheritance heirarchies are typically incomplete, the true level of multiple inheritance is almost certainly higher.  The propsed new classifications in this refactoring will increase this further.  This situation is not sustainable 
 
 
 ## Aims:
 
 - Clarify the definition of molecular function and its major subdivisions
 - Add new intermediate nodes that provide biologically meaningful and useful ways for biologists to group functions 
-- Allow curators to capture better capture the compound nature of functions
+- Allow curators to better capture the compound nature of functions
 - Automate classification via the implementation of design patterns
 - Add error checking in the form of disjointeness axioms
 - Provide templates and automated inference to simplify and standardise LEGO curation
@@ -69,11 +70,15 @@ A Molecular Function is any process carried out by a *single* gene product or co
    * ATPase activity provide energy for ion transporter activity
 * Some MF classes are defined, in part, by process context.  For example, chemoattractant activity involves a single gene productbinding and activating signaling receptor in context context of positive chemotaxis.
 
-On the basis of this, we define two, non-disjoint classes under 
+On the basis of this, we define two, *non-disjoint* classes under molecular function: biochemical activity (simple functions); system component function (compound/MFs defined by process context).
+
+TBD: adding a class for compound function.
 
 ## Strategies for defining design patterns and templates
 
-Combined design-pattern / template docs share variable slots
+Combined design-pattern / template docs will be specified using DOS-DPs, which now support specification of LEGO templates.
+
+The components of compound molecular functions are causally linked.  Co-reference issues prevent these causal links from being represented on the class level, but we can represent them directly in LEGO templates.  We can also use conventions within design patterns to specify regulatory input and effector/output.
 
 ## Strategies for inference
 
