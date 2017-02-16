@@ -14,7 +14,7 @@ Multiple inheritance classification summary:
 | 193 | 4 |
 | 89  | > 4 |
 
-Given that manually maintained multiple inheritance heirarchies are typically incomplete, the true level of multiple inheritance is almost certainly higher.  The propsed new classifications in this refactoring will increase this further.  This situation is not sustainable 
+Given that manually maintained multiple inheritance heirarchies are typically incomplete, the true level of multiple inheritance is almost certainly higher.  The propsed new classifications in this refactoring will increase this further.  This situation is not sustainable without use of design pattern to drive inference.  In the absence of this, errors an ommissions in the class heirarchy will inevitably accumulate.
 
 
 ## Aims:
@@ -85,6 +85,10 @@ The components of compound molecular functions are causally linked.  Co-referenc
 In addition to the standard OWL-EL tools for inference that we use in the ontology, we can also use SRWL rules to drive inference within the LEGO model. This turns out to be particularly useful for reducing the burden on curators and maximising inference.
 
 For example... TBA
+
+## Classifying enzyme activities
+
+See ticket: https://github.com/geneontology/molecular_function_refactoring/issues/22
 
 
 
