@@ -83,24 +83,29 @@ Work up from existing classes under Paul's new classes to try to find common des
 * Documentation of standard practises for LEGO annotation to ensure correct and complete inference.  For example, [should binding between two gene products be recorded as one node or two?](https://github.com/geneontology/molecular_function_refactoring/issues/29).
 
 
-## Strategies for defining design patterns and templates
+### Strategies for defining design patterns and templates
 
 Combined design-pattern / template docs will be specified using [DOS-DPs](https://github.com/dosumis/dead_simple_owl_design_patterns), which now support [specification of LEGO templates](https://github.com/dosumis/dead_simple_owl_design_patterns/issues/24#issuecomment-280299069).
 
 The components of compound molecular functions are causally linked.  Co-reference issues prevent these causal links from being represented on the class level, but we can represent them directly in LEGO templates.  We can also use conventions within class design patterns to specify regulatory input and effector/output.
 
-## Strategies for inference
+### Strategies for inference
 
 In addition to the standard OWL-EL tools for inference that we use in the ontology, we can also use SRWL rules to drive inference within the LEGO model. This turns out to be particularly useful for reducing the burden on curators and maximising inference.
 
 Inference on the individual level can also take advantage of inverse relations.  We cannot safely conclude from that statment (all) head has\_part some hair that (all) hair part\_of some head.  But if we record in the ontology that a necessary condition of being a 'kinase receptor activity' is that it **has part** *some* kinase activity, then this is fulfilled by a **part of** relationship between a kinase activity and a 'receptor activity' in a LEGO model.
 
 
-## Classifying enzyme activities
+### Classifying enzyme activities
 
 As far as possible, we will leverage existing classifications such as EC and Rhea.  For details
 see ticket: https://github.com/geneontology/molecular_function_refactoring/issues/22
 
 
+## Discussion 
+
+### Pros and cons of modelling molecular_functions as processes rather than realizables.
+
+Where two gene products contribute to a molecular_function, as is the case with binding.  There are two realizables (the binding activities of each gene product) that are realized in the same process (see [ticket](https://github.com/geneontology/molecular_function_refactoring/issues/29))
 
 
