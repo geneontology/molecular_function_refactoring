@@ -8,7 +8,7 @@ A basic, uncontroversial taxonomy of [receptor types](https://en.wikipedia.org/w
   - G-protein coupled receptor: A sensor on one side of the membrane (ligand binding or light) activates G-protein specific GEF activity on the other side of the membrane.
 - [nuclear receptor](https://en.wikipedia.org/wiki/Nuclear_receptor): Binding of ligand activates transcription factor acivity (typically by activating DNA binding activity, although in some cases there is also an effect on the ability to bind other parts of the transcriptional machinery.)
 
-Note that, perhaps with the exception of nuclear receptor, these classes are defined without reference to larger processes.  
+Note that, with the possible exception of nuclear receptor, these classes can be defined *without* reference to larger processes.  
 
 The *term* receptor is also used for 'cargo receptors'.  These bind and target particular molecules as part of vesicular transport. They do not transduce a signal and should probably be treated as a seaprate, unrelated heirarchy in the GO.
 
