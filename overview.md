@@ -2,7 +2,7 @@
 
 ## Introduction
 
-## What is a molecular function?
+### What is a molecular function?
 
 Biologists frequently refer to the functions and activities of gene products and the complexes they form, for example, asserting that a particular gene product has protein kinase activity, or that another acts as a receptor for glutamate. In building an ontology to represent these functions and activities we need to decide what general class or classes of thing terms like protein kinase activity and glutamate receptor activity refer to.  This question is intimately connected to the question of how we relate these activities and functions to gene products and to the biolgical processes such as signal transduction, glycolysis or gastrulation.
 
@@ -19,7 +19,7 @@ Some molecular functions are simple biochemical activities such as a catalysing 
 (See [ticket: Decide on new upper level classification in MF](https://github.com/geneontology/molecular_function_refactoring/issues/27) for further discussion.)
 
 
-## The state of the molecular function hierarchy.
+### The state of the molecular function hierarchy.
 
 Molecular function is very poorly formalised.  Only 16% of terms have logical definitions (compared to 70% for biological_process) and only 10% of classifications are inferred (compared to 64% in biological_process). 
 
@@ -44,7 +44,7 @@ LEGO annotation allows users to construct networks describing particular instanc
 
 To get around these problems, we need to develop templates for LEGO curation that promote annotation consistency and reduce the burden on curators.  These need to be compatible with ontology design patterns for equivalent/related classes. With these in place, we can use standard reasoning software in combination with the LEGO models and the ontology to infer additional annotations to LEGO models, further improving consistency as well as enhancing annotation.
   
-## MF refactoring aim:
+## MF refactoring aims:
 
 - Clarify the definition of molecular function and its major subdivisions
 - Add new intermediate nodes that provide biologically meaningful and useful ways for biologists to group functions 
@@ -59,7 +59,7 @@ Starting point: Paul Thomas' manual [refactoring proposal in WebProtege](https:/
 
 ### Top down approach:
 
-Document usefulness and practicality of proposed new terms via [checklist](), recording whether the proposed new term:
+Document usefulness and practicality of proposed new terms via [checklist](https://github.com/geneontology/molecular_function_refactoring/blob/master/ticket_template.md), recording whether the proposed new term:
 
 * is useful grouping of molecular functions not provided by an existing biological process? 
 * is useful for error checking (via disjointness axioms)?
