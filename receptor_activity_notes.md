@@ -24,12 +24,13 @@ Add the above hierarchy using that [standard molecular transducer pattern](https
    * iontropic receptor: 'transducing receptor' that 'results in transduction across' some 'membrane' and 'has effector' some 'ion channel activity'
    * enzyme linked transmembrane receptor'": 'transducing receptor activity' that 'results in transduction across' some 'membrane' and 'has effector' some 'catalytic activity'
    * GPCR activity: 'transducing receptor activity' that 'results in transduction across' some 'membrane' and 'has effector' some 'GEF activity'
- * 'nuclear receptor activity': 'transducing receptor activity' that 'has effector' some '(sequence-specific DNA binding) transcription factor activity' ( and occurs_in some intracellular ?)
+* 'nuclear receptor activity': 'transducing receptor activity' that 'has effector' some '(sequence-specific DNA binding) transcription factor activity' ( and occurs_in some intracellular ?)
 
 ## Classifications of receptors that take into account process context
 
 For general discussion see [this ticket](https://github.com/geneontology/molecular_function_refactoring/issues/38).  
 
+**Differentia::**
 * origin of signal (differentia: part relationships to BP process context).
   * intracellular:
      (BP term TBA)
@@ -41,17 +42,13 @@ For general discussion see [this ticket](https://github.com/geneontology/molecul
         part\_of signal reception involved in cell-cell signalling\*
      - ECM-cell signaling
         part\_of signal reception involved in ECM-cell signalling\*
-      
+* location of receptor: intracellular, plasma membrane, ER
+  ('results in transduction across' X membrane / 'occurs in' some intracellular)
+
 \* part_of cell-cell or ECM signaling is not sufficient as these processes include signal transduction, which can involve intracellar receptors such as IP3 receptor etc.
 
-* location of receptor: intracellular, plasma membrane, ER
-
-differentia: 'results in transduction across' X membrane / 'occurs in' some intracellular
 
 Naming - need to be very careful to distinguish intracellular location of receptor/activity from intracellular origin of signal. Nuclear receptors are intracellular but mostly respond to extracellular signals. Some ion channels in the plasma membrane are triggered by intracellular ligands.
-
-
-
 
 
 
