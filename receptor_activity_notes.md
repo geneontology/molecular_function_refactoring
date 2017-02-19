@@ -48,7 +48,7 @@ For general discussion see [this ticket](https://github.com/geneontology/molecul
 \* part_of cell-cell or ECM signaling is not sufficient as these processes include signal transduction, which can involve intracellar receptors such as IP3 receptor etc.
 
 
-Naming - need to be very careful to distinguish intracellular location of receptor/activity from intracellular origin of signal. Nuclear receptors are intracellular but mostly respond to extracellular signals. Some ion channels in the plasma membrane are triggered by intracellular ligands.
+Naming. We need to be very careful to distinguish intracellular location of receptor/activity from intracellular origin of signal. Nuclear receptors are intracellular but mostly respond to extracellular signals. Some ion channels in the plasma membrane are triggered by intracellular ligands.  Current term names are confusing in this regard.
 
 
 
