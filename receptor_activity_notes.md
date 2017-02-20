@@ -39,16 +39,18 @@ For general discussion see [this ticket](https://github.com/geneontology/molecul
      - environment
        (BP term TBA)
      - cell-cell signaling
-        part\_of signal reception involved in cell-cell signalling\*
+        part\_of 'signal reception involved in cell-cell signalling'^
      - ECM-cell signaling
-        part\_of signal reception involved in ECM-cell signalling\*
+        part\_of 'signal reception involved in ECM-cell signalling'^
 * location of receptor: intracellular, plasma membrane, ER
   ('results in transduction across' X membrane / 'occurs in' some intracellular)
 
-\* part_of cell-cell or ECM signaling is not sufficient as these processes include signal transduction, which can involve intracellar receptors such as IP3 receptor etc.  Reception should be defined to include presentation and co-receptor binding. 
+**^** 1. part_of cell-cell or ECM signaling is not sufficient as these processes include signal transduction, which can involve intracellular receptors such as IP3 receptor etc. 2. 'signal reception' should be defined to include presentation and co-receptor binding. 
 
 
-Naming. We need to be very careful to distinguish intracellular location of receptor/activity from intracellular origin of signal. Nuclear receptors are intracellular but mostly respond to extracellular signals. Some ion channels in the plasma membrane are triggered by intracellular ligands.  Current term names are confusing in this regard.
+*Naming issues:* 
+
+* We need to be very careful to distinguish intracellular location of receptor/activity from intracellular origin of signal. Nuclear receptors are intracellular but mostly respond to extracellular signals. Some ion channels in the plasma membrane are triggered by intracellular ligands.  Current term names are confusing in this regard.
 
 
 
