@@ -39,13 +39,15 @@ For general discussion see [this ticket](https://github.com/geneontology/molecul
      - environment
        (BP term TBA)
      - cell-cell signaling
-        part\_of 'signal reception involved in cell-cell signalling'^
+        part\_of 'signal reception involved in cell-cell signalling'^1,2
      - ECM-cell signaling
-        part\_of 'signal reception involved in ECM-cell signalling'^
+        part\_of 'signal reception involved in ECM-cell signalling'^1,2
 * location of receptor: intracellular, plasma membrane, ER
   ('results in transduction across' X membrane / 'occurs in' some intracellular)
 
-**^** 1. part_of cell-cell or ECM signaling is not sufficient as these processes include signal transduction, which can involve intracellular receptors such as IP3 receptor etc. 2. 'signal reception' should be defined to include presentation and co-receptor binding. 
+**^1.** part_of cell-cell or ECM signaling is not sufficient as these processes include signal transduction, which can involve intracellular receptors such as IP3 receptor etc.
+
+**^2.**'signal reception' should be defined to include presentation and co-receptor binding. 
 
 
 *Naming issues:* 
