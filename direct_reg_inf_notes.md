@@ -106,11 +106,7 @@ t positively_regulates k
 
 ~~~~~~~~~~
 
-This is unsafe: b1 directly_positively_regulates k
-b1 might be binding to some part of GP2 that doesn't regulate k
-We also have no way to infer without linking b1 and b2
-Solution: Add an edge to bind b1 to b2 (sameAs?)
-
+This is unsafe: 'b1 directly_positively_regulates k'  b1 might be binding to some part of GP2 that doesn't regulate k. We also have no way to infer without linking b1 and b2. Solution: Add an edge to link b1 to b2 (sameAs?)
 
 What about inference in the other direction.  Can we infer that something is a transducer/sensor?  Is this desirable?
-
+...
