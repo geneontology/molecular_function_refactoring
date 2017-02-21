@@ -2,7 +2,7 @@
 
 ## Compound functions
 
-Compound functions are functions made up of multiple subfunctions.  We use has_part - or subproperties of has_part to relate compound functions to their subfunctions.
+Compound functions are functions made up of multiple subfunctions.  We use has_part, or subproperties of has_part, to relate compound functions to their subfunctions.
 
 Reasoning about compound functions:
 
