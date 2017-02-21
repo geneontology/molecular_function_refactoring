@@ -1,4 +1,23 @@
-## Transducers, sensors, integrators and inference from direct regulation
+# Transducers, sensors, integrators and inference from direct regulation
+
+## Compound functions
+
+Compound functions are functions made up of multiple subfunctions.  We use has_part - or subproperties of has_part to relate compound functions to their subfunctions.
+
+Reasoning about compound functions:
+
+~~~~~~~~~~
+gp enables MF1
+MF1 has_part MF2
+-> gp enables MF2
+~~~~~~~~~~~
+
+It may be worth using a rule rather than a property chain for this in order to restrict to MFs.
+
+TBD: Do we allow subfunctions to also be compound?
+
+
+## Transducers and sensors
 
 A transducer is a compound function consisting of a sensor and effector functions where the sensor regulates the activity of the effector.  Sensors are simple functions like binding (possibly also sensing of phosphorylation state?). These simple functions only become sensors by virtue of being part of a transducer that regulates transducer activity.  We can represent the regulatory edge between sensor and effector in LEGO, but not on the class level.  Instead, on the class level we use specialised subproperties of has_part to indicate sensor and effector.
 
@@ -10,7 +29,7 @@ Some subclasses of transducer:
 ^ we could just call this calcium sensor activity
 
 
-Defining direct regulation:
+## Defining direct regulation
 
 ~~~~~~~~~~
 X directly positively regulates Y iff:
@@ -24,15 +43,8 @@ With this we can define classes such as:
 
 'kinase activator activity: EquivalentTo: molecular_function that directly_positively_regulates some kinase activity
 
-Reasoning about compound functions.
 
-~~~~~~~~~~
-gp enables MF1
-MF1 has_part MF2
--> gp enables MF2
-~~~~~~~~~~~
-
-May be worth using a rule rather than a property chain for this in order to restrict to MFs
+## direct regulation and transducers in LEGO
 
 Putting this all together in LEGO, what inference do we need, what patterns should we support?
 
@@ -74,7 +86,7 @@ t internally_positively_regulates k
 
 ~~~~~~~~~
 
-reasoning requires property chain: 
+reasoning requires this property chain: 
 
 has_input o internally_positively_regulates -> directly_postively_regulates
 
