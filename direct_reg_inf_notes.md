@@ -4,23 +4,25 @@ A transducer is a compound function consisting of a sensor and effector function
 
 Some subclasses of transducer:
 
-calcium sensing transducer activity^ EquivalentTo: transducer *that* **has sensor** *some* 'Ca2+ binding'
-transducer via protein binding EquivalentTo: transducer *that* **has sensor** *some* 'protein binding'
+* calcium sensing transducer activity^ EquivalentTo: transducer *that* **has sensor** *some* 'Ca2+ binding'
+* transducer via protein binding EquivalentTo: transducer *that* **has sensor** *some* 'protein binding'
 
-^ we could jsut call this calcium sensor activity
+^ we could just call this calcium sensor activity
 
 
 Defining direct regulation:
 
+~~~~~~~~~~
 X directly positively regulates Y iff:
    X positively regulates Y
    X enabled_by gp1
    Y enabled_by gp2
    X has_input gp2
+~~~~~~~~~~
 
-With this we can define:
+With this we can define classes such as:
 
-'kinase activator activity: molecular_function that directly_positively_regulates some kinase activity
+'kinase activator activity: EquivalentTo: molecular_function that directly_positively_regulates some kinase activity
 
 Reasoning about compound functions.
 
