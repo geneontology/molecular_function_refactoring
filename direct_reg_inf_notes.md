@@ -52,7 +52,10 @@ b directly_positively_regulates k
 => b has_input GP2
 ~~~~~~~~~~~~~
 
-property chain: enables o directly_positively_regulates -> has_input 
+reasoning requires property chain: 
+
+enables o directly_positively_regulates -> has_input 
+
 Or use rule to limit this to MFs?
 
 
@@ -71,7 +74,10 @@ t internally_positively_regulates k
 
 ~~~~~~~~~
 
+reasoning requires property chain: 
+
 has_input o internally_positively_regulates -> directly_postively_regulates
+
 
 
 ## Transducer via protein binding - separate binding nodes
