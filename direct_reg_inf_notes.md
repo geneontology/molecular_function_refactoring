@@ -19,15 +19,16 @@ TBD: Do we allow subfunctions to also be compound?
 
 ## Transducers and sensors
 
-A transducer is a compound function consisting of a sensor and effector functions where the sensor regulates the activity of the effector.  Sensors are simple functions like binding (possibly also sensing of phosphorylation state?). These simple functions only become sensors by virtue of being part of a transducer that regulates transducer activity.  We can represent the regulatory edge between sensor and effector in LEGO, but not on the class level.  Instead, on the class level we use specialised subproperties of has_part to indicate sensor and effector.
+A transducer is a compound function consisting of  sensor and effector functions where the sensor regulates the activity of the effector.  Sensors are simple functions like binding (possibly also sensing of phosphorylation state?). These simple functions only become sensors by virtue of being part of a transducer that regulates transducer activity.  We can represent the regulatory edge between sensor and effector in LEGO, but not on the class level.  Instead, on the class level we use specialised subproperties of has_part to indicate sensor and effector.
 
 Some subclasses of transducer:
 
 * calcium sensing transducer activity^ EquivalentTo: transducer *that* **has sensor** *some* 'Ca2+ binding'
-* transducer via protein binding EquivalentTo: transducer *that* **has sensor** *some* 'protein binding'
+* 'transducer via protein binding'^^ EquivalentTo: transducer *that* **has sensor** *some* 'protein binding' 
 
 ^ we could just call this calcium sensor activity
 
+^^ the precise set of general classifications for transducers is still under discussion
 
 ## Defining direct regulation
 
@@ -110,4 +111,6 @@ b1 might be binding to some part of GP2 that doesn't regulate k
 We also have no way to infer without linking b1 and b2
 Solution: Add an edge to bind b1 to b2 (sameAs?)
 
+
+What about inference in the other direction.  Can we infer that something is a transducer/sensor?  Is this desirable?
 
