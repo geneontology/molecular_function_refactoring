@@ -12,6 +12,10 @@ MF1 has_part MF2
 -> gp enables MF2
 ~~~~~~~~~~~
 
+Property chain:
+
+enables o has_part -> enables
+
 It may be worth using a rule rather than a property chain for this in order to restrict to MFs.
 
 TBD: Do we allow subfunctions to also be compound?
