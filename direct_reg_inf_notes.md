@@ -52,6 +52,9 @@ X directly positively regulates Y iff:
    X has_input gp2
 ~~~~~~~~~~
 
+enables o directly_positively_regulates -> has_input 
+
+
 With this we can define classes such as:
 
 'kinase activator activity: ***EquivalentTo:*** molecular_function *that* **directly_positively_regulates** *some* 'kinase activity'
@@ -67,7 +70,9 @@ Modelling as simple functions:
 GP1 enables kinase activity(k1)
 GP2 enables kinase activity(k2)
 k1 directly_positively_regulates k2
+
 => k1 has_input GP2
+=> GP1 enables 'kinase activitor activity'
 ~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~
@@ -75,34 +80,39 @@ GP1 enables protein binding(b)
 GP2 enables kinase activity(k)
 b directly_positively_regulates k
 => b has_input GP2
+GP1 enables 'kinase activator activity'
 ~~~~~~~~~~~~~
 
-reasoning can be enabled using a property chain: 
+In this case - GP2 must be a transdcuer activated by binding. But can we infer this?
 
-enables o directly_positively_regulates -> has_input 
+binding directly_positively_regulates k enabled_by GP2 -> b part_of GP2
 
-But consider:
+Perhaps with a rule... ?
+
+Also consider:
 
 ~~~~~~~~~~~
 GP1 enables (kinase activity)k
 k directly_positively_regulates BP(bp)
 ~~~~~~~~~~
 
-Would we still want the has_input inference. If not can we use a rule limit this inference to MFs?
+Would we still want the has_input inference?
 
 
 ## Transducer via protein binding - Single binding node
 
 ~~~~~~~~~
-GP1 enables binding(b)
+GP1 enables 'protein binding'(b)
 b has_input GP2
-GP2 enables transducer activity(t)
+GP2 enables 'transducer activity'(t)
 t has_sensor b
-t has_effector kinase activity (k)
+t has_effector 'kinase activity'(k)
 t internally_positively_regulates k
 
 => b directly_positively_regulates k
-=> b enables 'kinase activator activity'
+=> GP1 enables 'kinase activator activity'
+
+=> GP2 enables transducer via protein binding
 
 ~~~~~~~~~
 
@@ -122,7 +132,7 @@ b1 has_input GP2
 GP2 enables transducer activity(t)
 t has_sensor binding(b2)
 t has_effector kinase activity (k)
-t positively_regulates k
+b2 positively_regulates k
 
 ~~~~~~~~~~
 
@@ -136,10 +146,10 @@ What about inference in the other direction?  As long as we use has_sensor and h
 
 ### Constraints/patterns for LEGO annotation
 
-Should we support all possible patterns and rely on inference to resolve differences, or should we be constraining/standardising pattterns. 
+Should we support all possible patterns and rely on inference to resolve differences, or should we be constraining/standardising pattterns?
 
 ## Integrators
 
 (Suggestion from Paul T)
 
-Some compound molecular functions are integrators, rather than simple transducers.  For example NMDA receptors are only activated by a combination of glutmate binding, glycing binding and membrane depolarization.  Might it be possible to represent integrator functions in OWL on the instance level?  Or is this a step too far..?  An integrator would be a compound function with multiple sensors and integrator component that encodes how signals are combined to regulate an effector function.   
+Some compound molecular functions are integrators, rather than simple transducers.  For example NMDA receptors are only activated by a combination of glutmate binding, glycine binding and membrane depolarization.  Might it be possible to represent integrator functions in OWL on the instance level?  Or is this a step too far..?  An integrator would be a compound function with multiple sensors and integrator component that encodes how signals are combined to regulate an effector function.   
