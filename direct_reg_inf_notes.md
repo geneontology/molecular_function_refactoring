@@ -25,11 +25,11 @@ TBD: Do we allow subfunctions to also be compound?
 
 A transducer is a compound function consisting of  sensor and effector functions where the sensor regulates the activity of the effector.  Sensors are simple functions like binding (possibly also sensing of modification state, e.g. phosphorylation). These simple functions only become sensors by virtue of being part of a transducer that regulates transducer activity.  We can represent the regulatory edge between sensor and effector in LEGO, but not on the class level.  Instead, on the class level we use specialised subproperties of has_part to indicate sensor and effector.
 
-~~~~~~ 
+```
 'has part' (transitive)
    <-subPropertyOf- 'has sensor' (non-transitive)
    <-subPropertyOf- 'has effector' (non-transitive)
-~~~~~~~
+```
 
 TBD: How do these work with compounding of compound functions if we allow it?
 
@@ -44,16 +44,15 @@ TBD: How do these work with compounding of compound functions if we allow it?
 
 ## Defining direct regulation
 
-~~~~~~~~~~
+```
 X directly positively regulates Y iff:
    X positively regulates Y
    X enabled_by gp1
    Y enabled_by gp2
    X has_input gp2
-~~~~~~~~~~
 
 enables o directly_positively_regulates -> has_input 
-
+```
 
 With this we can define classes such as:
 
@@ -66,22 +65,22 @@ Putting this all together in LEGO, what inference do we need, what patterns shou
 
 Modelling as simple functions:
 
-~~~~~~~~~~~~
+```
 GP1 enables kinase activity(k1)
 GP2 enables kinase activity(k2)
 k1 directly_positively_regulates k2
 
 => k1 has_input GP2
 => GP1 enables 'kinase activitor activity'
-~~~~~~~~~~~~~
+```
 
-~~~~~~~~~~~~~
+```
 GP1 enables protein binding(b)
 GP2 enables kinase activity(k)
 b directly_positively_regulates k
 => b has_input GP2
 GP1 enables 'kinase activator activity'
-~~~~~~~~~~~~~
+```
 
 In this case - GP2 must be a transdcuer activated by binding. But can we infer this?
 
@@ -91,17 +90,17 @@ Perhaps with a rule... ?
 
 Also consider:
 
-~~~~~~~~~~~
+```
 GP1 enables (kinase activity)k
 k directly_positively_regulates BP(bp)
-~~~~~~~~~~
+```
 
 Would we still want the has_input inference?
 
 
 ## Transducer via protein binding - Single binding node
 
-~~~~~~~~~
+```
 GP1 enables 'protein binding'(b)
 b has_input GP2
 GP2 enables 'transducer activity'(t)
@@ -114,7 +113,7 @@ t internally_positively_regulates k
 
 => GP2 enables transducer via protein binding
 
-~~~~~~~~~
+```
 
 reasoning requires this property chain: 
 
@@ -126,7 +125,7 @@ input_of^ o internally_positively_regulates -> directly_postively_regulates
 ## Transducer via protein binding - separate binding nodes
 
 
-~~~~~~~~~
+```
 GP1 enables binding(b)
 b1 has_input GP2
 GP2 enables transducer activity(t)
@@ -134,7 +133,7 @@ t has_sensor binding(b2)
 t has_effector kinase activity (k)
 b2 positively_regulates k
 
-~~~~~~~~~~
+```
 
 This is unsafe: 'b1 directly_positively_regulates k' 
 
