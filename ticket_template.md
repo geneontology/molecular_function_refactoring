@@ -1,3 +1,4 @@
+[For more details see refactoring proposal in WebProtege](https://webprotege.stanford.edu/#Edit:projectId=ea132f81-760a-43f2-b5a9-fbe763bb7eed)
 
 ### Proposed class:
 

@@ -1,9 +1,12 @@
 # Molecular Function Refactoring
 
-STATUS: EXPERIMENTAL/DRAFT   
+## MF refactoring aims:
 
-An repository for discussion & development of
-* Proposed high-level / intermediate MF classes that group by biological context
-  * These terms will need logical definitions.  Code on this site will test the usefulness of these defs, which in turn will depend on improvments to MF axiomatisation.
-* Patterns for defining compound MF terms
-* Strategies and patterns for improving axiomatisation of simple MFs such as enzyme activities using Rhea & its mappings to ChEBI.  
+- Clarify the definition of molecular function and its major subdivisions
+- Add new intermediate nodes that provide biologically meaningful and useful ways for biologists to group functions 
+- Allow new term to allow curators to better capture the compound nature of functions
+- Automate classification via the implementation of design patterns
+- Add error checking in the form of disjointeness axioms
+- Provide templates and automated inference to simplify and standardise LEGO curation
+
+See [overview](overview.md) for background and details.
