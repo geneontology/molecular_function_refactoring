@@ -1,0 +1,45 @@
+name: transcription_factor_DNA_binding
+
+classes:
+  transcription, DNA-templated: GO_0006351
+  regulatory region DNA binding: GO_0000975
+  system component function: GO_0104002
+
+
+object_properties:
+  directly_regulates: RO_0002578
+  has_necessary_component: RO_0002016
+
+
+vars:
+  transcription: "'transcription, DNA-templated'"
+  DNA_binding: "'regulatory region DNA binding'"
+
+name:
+  text: "."
+  vars: 
+    - 
+
+def:
+  text: "."
+  vars: 
+    - 
+
+equivalentTo: 
+  text: > 
+    'system component function' 
+    that 'directly regulates' some %s
+    and 'has necessary component' some %s
+  vars: 
+    - transcription
+    - DNA_binding
+    
+instance_graph:
+  nodes:
+    trans: transcription
+    tf: system component function
+    db: DNA_binding:
+  edges:
+   - [tf, 'has necessary component', db]
+   - [tf, 'regulates', trans]
+
