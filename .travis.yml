@@ -1,0 +1,12 @@
+# specify python as the language
+language: python
+
+# python versions to be used for testing
+python:
+   - "3.5"
+ 
+install:
+   - pip install -r requirements.txt
+
+script:
+   - python src/simple_pattern_tester.py patterns
