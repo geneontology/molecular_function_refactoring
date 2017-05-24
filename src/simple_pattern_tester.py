@@ -25,7 +25,7 @@ def test_jschema(validator, test_pattern):
 def test_vars(pattern):
     """Tests whether variable names in any field with key 'vars'
     is in the vars list for the pattern"""
-     if 'vars' in pattern.keys():
+    if 'vars' in pattern.keys():
         vars = set(pattern['vars'].keys())
     else:
         warnings.warn("Pattern has no vars")  
