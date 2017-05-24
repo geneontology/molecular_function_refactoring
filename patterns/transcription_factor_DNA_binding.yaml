@@ -16,12 +16,12 @@ vars:
   DNA_binding: "'regulatory region DNA binding'"
 
 name:
-  text: ""
+  text: "."
   vars: 
     - 
 
 def:
-  text: ""
+  text: "."
   vars: 
     - 
 
