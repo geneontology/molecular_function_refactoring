@@ -17,7 +17,7 @@ name:
     - cargo
 
 def:
-  text: "."
+  text: "Active transport of %s from one side of a membrane to another using powered by ATPase activity. "
   vars: 
     - 
 
@@ -28,15 +28,16 @@ equivalentTo:
     and 'transports or maintains localization of' some %s 
   vars: 
     - cargo
-
     
 instance_graph:
   nodes:
     ATPase: 'ATPase activity'
     ata: 'active transporter activity'
     cargo: cargo
+#    gp: gene_product  # Needs to be specified as a var.  In own field.  Have default var for GO-CAM instance graphs.
     
   edges:
+#   - [ata, 'enabled by', gp]
    - [ata, 'has necessary component activity', ATPase]
    - [ata, 'transports or maintains localization of', cargo]
 
