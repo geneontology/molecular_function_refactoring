@@ -34,10 +34,10 @@ instance_graph:
     ATPase: 'ATPase activity'
     ata: 'active transporter activity'
     cargo: cargo
-#    gp: gene_product  # Needs to be specified as a var.  In own field.  Have default var for GO-CAM instance graphs.
+#   gp: gene_product  # Needs to be specified as a var.  In own field.  Have default var for GO-CAM instance graphs.
     
   edges:
-#   - [ata, 'enabled by', gp]
+#  - [ata, 'enabled by', gp]
    - [ata, 'has necessary component activity', ATPase]
    - [ata, 'transports or maintains localization of', cargo]
 
