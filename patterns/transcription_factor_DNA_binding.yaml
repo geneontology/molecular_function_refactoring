@@ -21,7 +21,22 @@ name:
     - 
 
 def:
-  text: "."
+  text: >
+#  Current defs for reference  
+#     Interacting selectively and non-covalently with a specific
+#     DNA sequence in order to modulate transcription. The transcription
+#     factor may or may not also interact selectively with a protein or 
+#     macromolecular complex.
+     
+#     Interacting selectively and non-covalently with a specific DNA 
+#     sequence in order to modulate transcription by RNA polymerase II. 
+#     The transcription factor may or may not also interact selectively 
+#     with a protein or macromolecular complex.
+     
+#     Interacting selectively and non-covalently with a sequence of DNA 
+#     that is in cis with and relatively close to a core promoter for 
+#     RNA polymerase II (RNAP II) in order to modulate transcription by RNAP II.     
+     
   vars: 
     - 
 
