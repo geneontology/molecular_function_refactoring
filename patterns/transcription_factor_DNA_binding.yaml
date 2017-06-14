@@ -56,5 +56,5 @@ instance_graph:
     db: DNA_binding:
   edges:
    - [tf, 'has necessary component', db]
-   - [tf, 'regulates', trans]
+   - [tf, 'directly regulates', trans]
 
