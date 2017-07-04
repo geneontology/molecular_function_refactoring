@@ -35,12 +35,13 @@ def:
   text: >
     Direct regulation of %s via a mechanism that requires %s.
   vars:
+    - transcription
     - DNA_binding
 #    - protein_binding
 
   # e.g.: Direct regulation of transcription from RNA polymerase II promoter 
   # via a mechanism that requires RNA polymerase II core promoter proximal 
-  # region binding and protein binding.
+  # region binding.
   
   
 #  Current defs for reference  
