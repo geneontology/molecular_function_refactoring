@@ -1,0 +1,43 @@
+name: ATPase_coupled_transporter_activity
+
+classes:
+  active transporter activity:   # Could be inferred if we had a specific component term for power sources.
+  ATPase activity
+
+object_properties:
+  has necessary component activity: RO_0002016
+  transports or maintains localization of: 
+
+vars:
+ cargo: "'chemical entity'"
+
+name:
+  text: "ATPase coupled %s transporter activity"
+  vars: 
+    - cargo
+
+def:
+  text: "Active transport of %s from one side of a membrane to another using powered by ATPase activity. "
+  vars: 
+    - 
+
+equivalentTo: 
+  text: > 
+    'active transporter activity'
+    that 'has necessary component activity' some 'ATPase activity'
+    and 'transports or maintains localization of' some %s 
+  vars: 
+    - cargo
+    
+instance_graph:
+  nodes:
+    ATPase: 'ATPase activity'
+    ata: 'active transporter activity'
+    cargo: cargo
+#   gp: gene_product  # Needs to be specified as a var.  In own field.  Have default var for GO-CAM instance graphs.
+    
+  edges:
+#  - [ata, 'enabled by', gp]
+   - [ata, 'has necessary component activity', ATPase]
+   - [ata, 'transports or maintains localization of', cargo]
+

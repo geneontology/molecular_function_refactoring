@@ -12,18 +12,54 @@ object_properties:
 
 
 vars:
-  transcription: "'transcription, DNA-templated'"
-  DNA_binding: "'regulatory region DNA binding'"
+  transcription: "'transcription, DNA-templated'" # Actually, we likely need an enumerated list - or just more patterns.
+  DNA_binding: "'regulatory region DNA binding'"  
+  # protein_binding: "protein binding"  - should we roll this in?
+  
+# General rules for naming: 
+### transcription factor activity
+### RNA polymerase II transcription factor activity
+### RNA polymerase II transcription factor activity, 
+### transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding
+### In this last one, the initial mention of RNA polymerase II is dropped as redundant 
+### with its mention in the DNA binding clause.  This is obviously hard to support with automatic naming.
+### Might be supportable with sub patterns by RNA pol.  These could also be a good idea becuase not everything under
+# 'transcription, DNA-templated' is really usable.
 
 name:
-  text: "."
+  text: "transcription factor activity", %s"  # It's very hard to come up with rules for names - should they all be done by hand in this case?
   vars: 
-    - 
+    - DNA binding
 
 def:
-  text: "."
-  vars: 
-    - 
+  text: >
+    Direct regulation of %s via a mechanism that requires %s.
+  vars:
+    - transcription
+    - DNA_binding
+#    - protein_binding
+
+  # e.g.: Direct regulation of transcription from RNA polymerase II promoter 
+  # via a mechanism that requires RNA polymerase II core promoter proximal 
+  # region binding.
+  
+  
+#  Current defs for reference  
+#     Interacting selectively and non-covalently with a specific
+#     DNA sequence in order to modulate transcription. The transcription
+#     factor may or may not also interact selectively with a protein or 
+#     macromolecular complex.
+     
+#     Interacting selectively and non-covalently with a specific DNA 
+#     sequence in order to modulate transcription by RNA polymerase II. 
+#     The transcription factor may or may not also interact selectively 
+#     with a protein or macromolecular complex.
+     
+#     Interacting selectively and non-covalently with a sequence of DNA 
+#     that is in cis with and relatively close to a core promoter for 
+#     RNA polymerase II (RNAP II) in order to modulate transcription by RNAP II.     
+     
+
 
 equivalentTo: 
   text: > 
@@ -41,5 +77,6 @@ instance_graph:
     db: DNA_binding:
   edges:
    - [tf, 'has necessary component', db]
-   - [tf, 'regulates', trans]
+   - [tf, 'directly regulates', trans]
+   ## BUT a generally useful instance graph would have slots for protein binding - and probably also regulatory domains (e.g. for ligand)
 
