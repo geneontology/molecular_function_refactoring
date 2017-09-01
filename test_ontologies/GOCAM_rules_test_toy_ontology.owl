@@ -1,0 +1,282 @@
+Prefix(:=<http://www.semanticweb.org/dosumis/ontologies/2017/7/GOCAM_rules_test_toy_ontology.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/dosumis/ontologies/2017/7/GOCAM_rules_test_toy_ontology.owl>
+
+Declaration(Class(<http://fubar/molecular_function>))
+Declaration(Class(<http://fubar/protein_binding>))
+Declaration(Class(<http://fubar/protein_kinase_activator_activity>))
+Declaration(Class(<http://fubar/protein_kinase_activity>))
+Declaration(Class(<http://fubar/protein_kinase_inhibitor_activity>))
+Declaration(ObjectProperty(<http://fubar/directly_negatively_regulated_by>))
+Declaration(ObjectProperty(<http://fubar/directly_negatively_regulates>))
+Declaration(ObjectProperty(<http://fubar/directly_positively_regulates>))
+Declaration(ObjectProperty(<http://fubar/directly_regulated_by>))
+Declaration(ObjectProperty(<http://fubar/directly_regulates>))
+Declaration(ObjectProperty(<http://fubar/enabled_by>))
+Declaration(ObjectProperty(<http://fubar/enables>))
+Declaration(ObjectProperty(<http://fubar/has_component>))
+Declaration(ObjectProperty(<http://fubar/has_input>))
+Declaration(ObjectProperty(<http://fubar/has_negative_regulatory_component>))
+Declaration(ObjectProperty(<http://fubar/has_part>))
+Declaration(ObjectProperty(<http://fubar/has_positive_regulatory_component>))
+Declaration(ObjectProperty(<http://fubar/has_regulatory_component>))
+Declaration(ObjectProperty(<http://fubar/input_of>))
+Declaration(ObjectProperty(<http://fubar/negatively_regulates>))
+Declaration(ObjectProperty(<http://fubar/overlaps>))
+Declaration(ObjectProperty(<http://fubar/positively_regulated_by>))
+Declaration(ObjectProperty(<http://fubar/positively_regulates>))
+Declaration(ObjectProperty(<http://fubar/regulated_by>))
+Declaration(ObjectProperty(<http://fubar/regulates>))
+Declaration(NamedIndividual(<http://fubar/DSH_c>))
+Declaration(NamedIndividual(<http://fubar/DSH_s>))
+Declaration(NamedIndividual(<http://fubar/GSK3B_c>))
+Declaration(NamedIndividual(<http://fubar/GSK3B_s>))
+Declaration(NamedIndividual(<http://fubar/GSK_reg_dom>))
+Declaration(NamedIndividual(<http://fubar/compound_DSH_act>))
+Declaration(NamedIndividual(<http://fubar/compound_GSKB_act>))
+Declaration(NamedIndividual(<http://fubar/simple_DSH_act>))
+Declaration(NamedIndividual(<http://fubar/simple_GSK_act>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://fubar/directly_negatively_regulated_by> (<http://fubar/directly_negatively_regulated_by>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/directly_negatively_regulated_by> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/directly_negatively_regulated_by> "2017-09-01T11:05:21Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/directly_negatively_regulated_by> <http://fubar/directly_regulated_by>)
+InverseObjectProperties(<http://fubar/directly_negatively_regulated_by> <http://fubar/directly_negatively_regulates>)
+
+# Object Property: <http://fubar/directly_negatively_regulates> (<http://fubar/directly_negatively_regulates>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/directly_negatively_regulates> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/directly_negatively_regulates> "2017-09-01T08:39:59Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/directly_negatively_regulates> <http://fubar/negatively_regulates>)
+
+# Object Property: <http://fubar/directly_positively_regulates> (<http://fubar/directly_positively_regulates>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/directly_positively_regulates> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/directly_positively_regulates> "2017-08-31T17:31:11Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/directly_positively_regulates> <http://fubar/directly_regulates>)
+SubObjectPropertyOf(<http://fubar/directly_positively_regulates> <http://fubar/positively_regulates>)
+
+# Object Property: <http://fubar/directly_regulated_by> (<http://fubar/directly_regulated_by>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/directly_regulated_by> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/directly_regulated_by> "2017-09-01T10:00:11Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/directly_regulated_by> <http://fubar/regulated_by>)
+InverseObjectProperties(<http://fubar/directly_regulated_by> <http://fubar/directly_regulates>)
+
+# Object Property: <http://fubar/directly_regulates> (<http://fubar/directly_regulates>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/directly_regulates> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/directly_regulates> "2017-09-01T07:31:46Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/directly_regulates> <http://fubar/regulates>)
+
+# Object Property: <http://fubar/enabled_by> (<http://fubar/enabled_by>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/enabled_by> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/enabled_by> "2017-08-31T17:26:04Z"^^xsd:dateTime)
+InverseObjectProperties(<http://fubar/enabled_by> <http://fubar/enables>)
+
+# Object Property: <http://fubar/enables> (<http://fubar/enables>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/enables> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/enables> "2017-08-31T17:26:09Z"^^xsd:dateTime)
+
+# Object Property: <http://fubar/has_component> (<http://fubar/has_component>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/has_component> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/has_component> "2017-09-01T07:39:00Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/has_component> <http://fubar/has_part>)
+
+# Object Property: <http://fubar/has_input> (<http://fubar/has_input>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/has_input> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/has_input> "2017-08-31T17:31:18Z"^^xsd:dateTime)
+InverseObjectProperties(<http://fubar/has_input> <http://fubar/input_of>)
+
+# Object Property: <http://fubar/has_negative_regulatory_component> (<http://fubar/has_negative_regulatory_component>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/has_negative_regulatory_component> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/has_negative_regulatory_component> "2017-09-01T08:40:23Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/has_negative_regulatory_component> <http://fubar/has_regulatory_component>)
+
+# Object Property: <http://fubar/has_part> (<http://fubar/has_part>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/has_part> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/has_part> "2017-09-01T07:33:30Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/has_part> <http://fubar/overlaps>)
+
+# Object Property: <http://fubar/has_positive_regulatory_component> (<http://fubar/has_positive_regulatory_component>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/has_positive_regulatory_component> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/has_positive_regulatory_component> "2017-09-01T07:33:45Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/has_positive_regulatory_component> <http://fubar/has_regulatory_component>)
+
+# Object Property: <http://fubar/has_regulatory_component> (<http://fubar/has_regulatory_component>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/has_regulatory_component> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/has_regulatory_component> "2017-09-01T07:39:11Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/has_regulatory_component> <http://fubar/has_component>)
+SubObjectPropertyOf(<http://fubar/has_regulatory_component> <http://fubar/regulated_by>)
+
+# Object Property: <http://fubar/input_of> (<http://fubar/input_of>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/input_of> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/input_of> "2017-09-01T08:08:22Z"^^xsd:dateTime)
+
+# Object Property: <http://fubar/negatively_regulates> (<http://fubar/negatively_regulates>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/negatively_regulates> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/negatively_regulates> "2017-09-01T08:40:49Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/negatively_regulates> <http://fubar/regulates>)
+
+# Object Property: <http://fubar/overlaps> (<http://fubar/overlaps>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/overlaps> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/overlaps> "2017-09-01T07:54:49Z"^^xsd:dateTime)
+
+# Object Property: <http://fubar/positively_regulated_by> (<http://fubar/positively_regulated_by>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/positively_regulated_by> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/positively_regulated_by> "2017-09-01T07:34:08Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/positively_regulated_by> <http://fubar/regulated_by>)
+TransitiveObjectProperty(<http://fubar/positively_regulated_by>)
+
+# Object Property: <http://fubar/positively_regulates> (<http://fubar/positively_regulates>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/positively_regulates> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/positively_regulates> "2017-09-01T07:34:27Z"^^xsd:dateTime)
+SubObjectPropertyOf(<http://fubar/positively_regulates> <http://fubar/regulates>)
+TransitiveObjectProperty(<http://fubar/positively_regulates>)
+
+# Object Property: <http://fubar/regulated_by> (<http://fubar/regulated_by>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/regulated_by> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/regulated_by> "2017-09-01T07:33:54Z"^^xsd:dateTime)
+InverseObjectProperties(<http://fubar/regulated_by> <http://fubar/regulates>)
+TransitiveObjectProperty(<http://fubar/regulated_by>)
+
+# Object Property: <http://fubar/regulates> (<http://fubar/regulates>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/regulates> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/regulates> "2017-09-01T07:31:35Z"^^xsd:dateTime)
+TransitiveObjectProperty(<http://fubar/regulates>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://fubar/molecular_function> (<http://fubar/molecular_function>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/molecular_function> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/molecular_function> "2017-09-01T08:38:05Z"^^xsd:dateTime)
+
+# Class: <http://fubar/protein_binding> (<http://fubar/protein_binding>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/protein_binding> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/protein_binding> "2017-08-31T17:39:48Z"^^xsd:dateTime)
+SubClassOf(<http://fubar/protein_binding> <http://fubar/molecular_function>)
+
+# Class: <http://fubar/protein_kinase_activator_activity> (<http://fubar/protein_kinase_activator_activity>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/protein_kinase_activator_activity> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/protein_kinase_activator_activity> "2017-09-01T08:41:36Z"^^xsd:dateTime)
+EquivalentClasses(<http://fubar/protein_kinase_activator_activity> ObjectIntersectionOf(<http://fubar/molecular_function> ObjectSomeValuesFrom(<http://fubar/directly_positively_regulates> <http://fubar/protein_kinase_activity>)))
+SubClassOf(<http://fubar/protein_kinase_activator_activity> <http://fubar/molecular_function>)
+
+# Class: <http://fubar/protein_kinase_activity> (<http://fubar/protein_kinase_activity>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/protein_kinase_activity> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/protein_kinase_activity> "2017-09-01T08:38:20Z"^^xsd:dateTime)
+SubClassOf(<http://fubar/protein_kinase_activity> <http://fubar/molecular_function>)
+
+# Class: <http://fubar/protein_kinase_inhibitor_activity> (<http://fubar/protein_kinase_inhibitor_activity>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/protein_kinase_inhibitor_activity> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/protein_kinase_inhibitor_activity> "2017-09-01T08:38:43Z"^^xsd:dateTime)
+EquivalentClasses(<http://fubar/protein_kinase_inhibitor_activity> ObjectIntersectionOf(<http://fubar/molecular_function> ObjectSomeValuesFrom(<http://fubar/directly_negatively_regulates> <http://fubar/protein_kinase_activity>)))
+SubClassOf(<http://fubar/protein_kinase_inhibitor_activity> <http://fubar/molecular_function>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://fubar/DSH_c> (<http://fubar/DSH_c>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/DSH_c> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/DSH_c> "2017-09-01T08:45:53Z"^^xsd:dateTime)
+
+# Individual: <http://fubar/DSH_s> (<http://fubar/DSH_s>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/DSH_s> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/DSH_s> "2017-09-01T09:57:21Z"^^xsd:dateTime)
+
+# Individual: <http://fubar/GSK3B_c> (<http://fubar/GSK3B_c>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/GSK3B_c> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/GSK3B_c> "2017-09-01T08:45:59Z"^^xsd:dateTime)
+
+# Individual: <http://fubar/GSK3B_s> (<http://fubar/GSK3B_s>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/GSK3B_s> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/GSK3B_s> "2017-09-01T09:57:15Z"^^xsd:dateTime)
+
+# Individual: <http://fubar/GSK_reg_dom> (<http://fubar/GSK_reg_dom>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/GSK_reg_dom> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/GSK_reg_dom> "2017-09-01T08:45:19Z"^^xsd:dateTime)
+ClassAssertion(<http://fubar/protein_binding> <http://fubar/GSK_reg_dom>)
+ObjectPropertyAssertion(<http://fubar/has_input> <http://fubar/GSK_reg_dom> <http://fubar/DSH_c>)
+
+# Individual: <http://fubar/compound_DSH_act> (<http://fubar/compound_DSH_act>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/compound_DSH_act> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/compound_DSH_act> "2017-09-01T08:13:38Z"^^xsd:dateTime)
+ClassAssertion(<http://fubar/protein_binding> <http://fubar/compound_DSH_act>)
+ObjectPropertyAssertion(<http://fubar/enabled_by> <http://fubar/compound_DSH_act> <http://fubar/DSH_c>)
+
+# Individual: <http://fubar/compound_GSKB_act> (<http://fubar/compound_GSKB_act>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/compound_GSKB_act> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/compound_GSKB_act> "2017-09-01T08:13:47Z"^^xsd:dateTime)
+ClassAssertion(<http://fubar/protein_kinase_activity> <http://fubar/compound_GSKB_act>)
+ObjectPropertyAssertion(<http://fubar/enabled_by> <http://fubar/compound_GSKB_act> <http://fubar/GSK3B_c>)
+ObjectPropertyAssertion(<http://fubar/has_negative_regulatory_component> <http://fubar/compound_GSKB_act> <http://fubar/GSK_reg_dom>)
+
+# Individual: <http://fubar/simple_DSH_act> (<http://fubar/simple_DSH_act>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/simple_DSH_act> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/simple_DSH_act> "2017-09-01T09:47:32Z"^^xsd:dateTime)
+ClassAssertion(<http://fubar/protein_binding> <http://fubar/simple_DSH_act>)
+ObjectPropertyAssertion(<http://fubar/directly_negatively_regulates> <http://fubar/simple_DSH_act> <http://fubar/simple_GSK_act>)
+ObjectPropertyAssertion(<http://fubar/enabled_by> <http://fubar/simple_DSH_act> <http://fubar/DSH_s>)
+
+# Individual: <http://fubar/simple_GSK_act> (<http://fubar/simple_GSK_act>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://fubar/simple_GSK_act> "dos"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://fubar/simple_GSK_act> "2017-09-01T09:47:49Z"^^xsd:dateTime)
+ClassAssertion(<http://fubar/protein_kinase_activity> <http://fubar/simple_GSK_act>)
+ObjectPropertyAssertion(<http://fubar/enabled_by> <http://fubar/simple_GSK_act> <http://fubar/GSK3B_s>)
+
+
+SubClassOf(ObjectSomeValuesFrom(<http://fubar/directly_negatively_regulated_by> <http://fubar/protein_binding>) ObjectSomeValuesFrom(<http://fubar/has_negative_regulatory_component> <http://fubar/protein_binding>))
+SubObjectPropertyOf(ObjectPropertyChain(<http://fubar/enables> <http://fubar/has_component>) <http://fubar/enables>)
+DLSafeRule(Body(ObjectPropertyAtom(<http://fubar/enabled_by> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://fubar/directly_regulates> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://fubar/has_input> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://fubar/enabled_by> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://fubar/input_of> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://fubar/has_negative_regulatory_component> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://fubar/directly_negatively_regulates> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://fubar/enabled_by> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://fubar/input_of> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://fubar/has_positive_regulatory_component> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://fubar/directly_positively_regulates> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))
+DLSafeRule(Body(ObjectPropertyAtom(<http://fubar/enabled_by> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://fubar/input_of> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://fubar/has_regulatory_component> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://fubar/directly_regulates> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))
+)
