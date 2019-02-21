@@ -1,4 +1,6 @@
-	transcription factor activity, sequence-specific DNA binding	transcription factor activity	
+LEGACY - this was not implemented exactly in this way. So tickets in https://github.com/geneontology/go-ontology/projects/7
+
+        transcription factor activity, sequence-specific DNA binding	transcription factor activity	
 	bacterial-type RNA polymerase transcription factor activity, sequence-specific DNA binding	 bacterial-type RNA polymerase transcription factor activity	
 	bacterial-type RNA polymerase transcriptional activator activity, sequence-specific DNA binding	 bacterial-type RNA polymerase transcriptional activator activity	
 	bacterial-type RNA polymerase transcriptional repressor activity, sequence-specific DNA binding	 bacterial-type RNA polymerase transcriptional repressor activity	
